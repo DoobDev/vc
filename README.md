@@ -10,4 +10,5 @@
 [![GitHub Forks](https://img.shields.io/github/forks/mmatt625/doob)](https://github.com/mmatt625/doob/network/members)
 [![doob's Discord](https://discordapp.com/api/guilds/702352937980133386/widget.png?style=shield)](https://discord.gg/ryTYWjD)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mmatt)
-VC Bot for Discord. Makes it so you can screenshare in any Discord server.
+
+VC Bot for Discord. Makes it so you can screenshare in any Discord server written in discord.py.
