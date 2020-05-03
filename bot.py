@@ -19,9 +19,6 @@ def get_prefix(client, message):
 
 client = commands.Bot(command_prefix = get_prefix)
 
-client.remove_command("help")
-
-
 @client.event
 async def on_ready():
     print('VC is online!')
@@ -104,7 +101,7 @@ async def changeprefix(ctx, prefix):
     embed.add_field(name="The prefix has been changed to:", value=prefix)
     await ctx.send(embed=embed)
 
-@commands.command()
+@client.command()
 @commands.is_owner()
 async def ownerprefixchange(ctx, prefix):
     with open('prefixes.json', 'r') as f:
