@@ -119,7 +119,7 @@ async def ownerprefixchange(ctx, prefix):
     embed.add_field(name="The prefix has been changed to:", value=prefix)
     await ctx.send(embed=embed)
 
-@commands.command(aliases=['helpme', 'commands'])
+@client.command(aliases=['helpme', 'commands'])
 async def help(ctx):
     embed = discord.Embed(title="Command Help", description="All of VC's commands.", colour=discord.Color.blue())
 
