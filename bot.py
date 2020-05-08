@@ -79,10 +79,10 @@ async def vote(ctx):
     await ctx.send(embed=embed)
 
 @client.command()
-async def ping(ctx, self):
+async def ping(ctx):
     embed = discord.Embed(title="Pong!", description=":ping_pong:", colour=discord.Color.blue())
 
-    embed.add_field(name="The latency for VC is...", value=f"{round(self.client.latency * 1000)} ms")
+    embed.add_field(name="The latency for VC is...", value=f"{round(client.latency * 1000)} ms")
 
     await ctx.send(embed=embed)
 
