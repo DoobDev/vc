@@ -11,7 +11,7 @@
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mmatt)
 
 VC Bot for Discord. Makes it so you can screenshare in any Discord server written in discord.py.
-
+# You must be in a voice channel to use the vcshare command.
 ## Commands
 vc/vcshare {or vc, screenshare, and ss} - Gives the link to screenshare [Must be in a Voice Channel]
 vc/vote - Gives link to vote on the bot for Top.gg
