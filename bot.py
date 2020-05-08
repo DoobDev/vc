@@ -120,7 +120,7 @@ async def ownerprefixchange(ctx, prefix):
     await ctx.send(embed=embed)
 
 @commands.command(aliases=['helpme', 'commands'])
-async def help(self, ctx):
+async def help(ctx):
     embed = discord.Embed(title="Command Help", description="All of VC's commands.", colour=discord.Color.blue())
 
     embed.add_field(name="Check out the docs!", value="https://www.notion.so/doob/VC-Commands-d925cea5bab6425189dd57ff5eb923b3")
