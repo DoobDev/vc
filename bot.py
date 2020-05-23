@@ -4,6 +4,7 @@ import json
 import asyncio
 import logging
 import os
+import dbl
 
 from discord.ext import commands
 # These just came with Doob Bot, if not needed will remove later.
@@ -21,6 +22,12 @@ client = commands.Bot(command_prefix = get_prefix)
 
 client.remove_command("help")
 
+def __init__(self, client):
+    self.client = client
+    self.token = 'token' # set this to your DBL token
+    self.dblpy = dbl.DBLClient(self.client, self.token, autopost=True) # Autopost will post your guild count every 30 minutes
+    print("uploaded top.gg")
+    
 @client.event
 async def on_ready():
     print('VC is online!')
