@@ -8,13 +8,13 @@ class prefix(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    # Opens json file then dumps '-'
+    # Opens json file then dumps 'vc/'
     @commands.Cog.listener()
     async def on_guild_join(self, guild):
         with open('prefixes.json', 'r') as f:
             prefixes = json.load(f)
 
-        prefixes[str(guild.id)] = "-"
+        prefixes[str(guild.id)] = "vc/"
 
         with open('prefixes.json', 'w') as f:
             json.dump(prefixes, f, indent=4)
