@@ -24,7 +24,7 @@ client.remove_command("help")
 @client.event
 async def on_ready():
     print('VC is online!')
-    await client.change_presence(status = discord.Status.online, activity=discord.Game('vc/help for commands. | github.com/mmatt625/vc'))
+    await client.change_presence(status = discord.Status.online, activity=discord.Game('vc/help for commands. | github.com/doobdev/vc'))
 
 @client.command()
 async def load(ctx, extension):

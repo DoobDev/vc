@@ -9,7 +9,7 @@ class help(commands.Cog):
     async def help(self, ctx):
         embed = discord.Embed(title="Command Help", description="All of VC's commands.", colour=discord.Color.blue())
 
-        embed.add_field(name="Check out the docs!", value="https://www.notion.so/doob/VC-Commands-d925cea5bab6425189dd57ff5eb923b3")
+        embed.add_field(name="Check out the docs!", value="https://notmmatt.gitbook.io/docs/docs/cmds")
         embed.add_field(name="Join the Support Discord", value="https://discord.gg/ryTYWjD")
 
         await ctx.send(embed=embed)
