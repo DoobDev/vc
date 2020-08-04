@@ -21,6 +21,7 @@ class info(commands.Cog):
         embed.add_field(name="Top.gg Link", value="https://top.gg/bot/706286009771360310")
         embed.add_field(name="Invite Link", value="https://discordapp.com/oauth2/authorize?client_id=706286009771360310&scope=bot&permissions=3072")
         embed.add_field(name="GitLab Repository", value="https://github.com/doobdev/vc")
+        embed.add_field(name="Docs", value="https://docs.doobbot.com")
         await ctx.send(embed=embed)
 
 def setup(client):

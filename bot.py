@@ -9,6 +9,7 @@ import dbl
 from discord.ext import commands
 # These just came with Doob Bot, if not needed will remove later.
 
+token = input("Input your Discord Bot Token.\n")
 
 # Creates and loads the json file.
 def get_prefix(client, message):
@@ -42,4 +43,4 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-client.run("token")
+client.run(token)
