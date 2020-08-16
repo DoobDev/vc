@@ -15,8 +15,10 @@ token = input("Input your Discord Bot Token.\n")
 def get_prefix(client, message):
     with open('prefixes.json', 'r') as f:
         prefixes = json.load(f)
-
-    return prefixes[str(message.guild.id)]
+    try:
+         return prefixes[str(message.guild.id)]
+    except KeyError:
+         return 'doob/'
 
 client = commands.Bot(command_prefix = get_prefix)
 
