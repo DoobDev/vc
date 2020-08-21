@@ -1,13 +1,9 @@
 # Doob Dev
 import discord
 import json
-import asyncio
-import logging
 import os
-import dbl
 
 from discord.ext import commands
-# These just came with Doob Bot, if not needed will remove later.
 
 token = input("Input your Discord Bot Token.\n")
 
@@ -18,12 +14,12 @@ def get_prefix(client, message):
     try:
          return prefixes[str(message.guild.id)]
     except KeyError:
-         return 'doob/'
+         return 'vc/'
 
 client = commands.Bot(command_prefix = get_prefix)
 
 client.remove_command("help")
-    
+
 @client.event
 async def on_ready():
     print('VC is online!')
