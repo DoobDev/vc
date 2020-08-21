@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/github/license/doobdev/vc.svg?style=for-the-badge)](https://github.com/doobdev/vc/blob/master/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/doobdev/vc?style=for-the-badge)](https://github.com/doobdev/vc/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/doobdev/vc?style=for-the-badge)](https://github.com/doobdev/vc/network/members)
-[![doob's Discord](https://discordapp.com/api/guilds/702352937980133386/widget.png?style=shield)](https://discord.gg/ryTYWjD)
+[![Discord](https://img.shields.io/discord/702352937980133386?color=blue&logo=Discord&style=for-the-badge)](https://discord.gg/ryTYWjD)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mmatt)
 
 VC Bot for Discord. Makes it so you can screenshare in any Discord server written in discord.py.
