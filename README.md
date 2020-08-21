@@ -7,6 +7,7 @@
 [![GitHub license](https://img.shields.io/github/license/doobdev/vc.svg?style=for-the-badge)](https://github.com/doobdev/vc/blob/master/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/doobdev/vc?style=for-the-badge)](https://github.com/doobdev/vc/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/doobdev/vc?style=for-the-badge)](https://github.com/doobdev/vc/network/members)
+[![Codacy grade](https://img.shields.io/codacy/grade/ae98592b4c14434699c2fc18b848f35d?style=for-the-badge)]
 [![Discord](https://img.shields.io/discord/702352937980133386?color=blue&logo=Discord&style=for-the-badge)](https://discord.gg/ryTYWjD)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mmatt)
 
