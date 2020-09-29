@@ -15,4 +15,4 @@ dblpy==0.4.0
 # cogs\servercount.py: 2,3
 # cogs\vc.py: 1,2
 # cogs\vote.py: 1,2
-discord.py==1.4.1
+discord.py==1.5.0
