@@ -1,3 +1,5 @@
+# Discord now lets you screenshare + turn on camera natively, this bot is no longer needed.
+
 # vc by Doob Dev
 [![Discord Bots](https://top.gg/api/widget/status/706286009771360310.svg)](https://top.gg/bot/706286009771360310)
 [![Discord Bots](https://top.gg/api/widget/upvotes/706286009771360310.svg?noavatar=true)](https://top.gg/bot/706286009771360310)
